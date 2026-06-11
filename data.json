@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-kanban-board",
+  "title": "Delivery Kanban Board",
+  "subtitle": "Sprint flow, blockers, and priorities",
+  "eyebrow": "Project management MVP",
+  "initial": "KB",
+  "accent": "#9333ea",
+  "description": "Manage delivery work with priorities, status flow, blockers, sprint health, and action tracking.",
+  "metrics": [
+    {
+      "label": "Total tasks",
+      "delta": "Flow",
+      "type": "count"
+    },
+    {
+      "label": "In progress",
+      "delta": "Focus",
+      "type": "count"
+    },
+    {
+      "label": "Done rate",
+      "delta": "Sprint",
+      "type": "percent"
+    },
+    {
+      "label": "Blocked tasks",
+      "delta": "Risk",
+      "type": "count"
+    },
+    {
+      "label": "Delivery value",
+      "delta": "Scope",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Todo",
+    "In progress",
+    "Review",
+    "Done",
+    "Blocked"
+  ],
+  "resources": [
+    {
+      "title": "Landing page copy",
+      "owner": "Marketing",
+      "status": "Todo",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 2400,
+      "detail": "Finalize messaging and proof sections.",
+      "notes": "Align with product positioning."
+    },
+    {
+      "title": "API pagination",
+      "owner": "Backend",
+      "status": "In progress",
+      "priority": "High",
+      "dueDate": "2026-06-16",
+      "value": 5200,
+      "detail": "Add cursor-based pagination and test coverage.",
+      "notes": "Update API docs after implementation."
+    },
+    {
+      "title": "Billing webhook retry",
+      "owner": "Payments",
+      "status": "Review",
+      "priority": "Critical",
+      "dueDate": "2026-06-15",
+      "value": 8600,
+      "detail": "Validate signature checks and retry behavior.",
+      "notes": "Add idempotency tests."
+    },
+    {
+      "title": "Onboarding checklist",
+      "owner": "Product",
+      "status": "Done",
+      "priority": "Medium",
+      "dueDate": "2026-06-12",
+      "value": 3200,
+      "detail": "Published checklist from the dashboard.",
+      "notes": "Monitor completion rate."
+    },
+    {
+      "title": "Design QA pass",
+      "owner": "Design",
+      "status": "Blocked",
+      "priority": "High",
+      "dueDate": "2026-06-17",
+      "value": 4100,
+      "detail": "Waiting for final asset export from creative.",
+      "notes": "Escalate asset deadline."
+    },
+    {
+      "title": "Release notes draft",
+      "owner": "PM",
+      "status": "Todo",
+      "priority": "Low",
+      "dueDate": "2026-06-24",
+      "value": 1800,
+      "detail": "Draft customer-facing release summary.",
+      "notes": "Collect engineering highlights."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Moved billing webhook to review.",
+      "at": "2026-06-10T11:10:00Z"
+    },
+    {
+      "text": "Created sprint board.",
+      "at": "2026-06-05T09:00:00Z"
+    }
+  ]
+}
